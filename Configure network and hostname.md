@@ -1,3 +1,12 @@
+# Question
+Configure network and set IP Address
+- IP Address 172.20.10.10
+- Netmask 255.255.255.0
+- Gateway 172.20.10.1
+- DNS 172.20.10.1
+- Hostname servera.lab.randifilan.id
+---
+
 # Find the iface [ens3]
 - using nmcli con show
 ```
