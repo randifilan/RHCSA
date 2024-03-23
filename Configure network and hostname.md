@@ -8,7 +8,7 @@ Configure network and set IP Address
 ---
 
 Find the iface [ens3]
-- using nmcli con show
+- Using nmcli con show
 ```
 nmcli con show
 NAME  UUID                                  TYPE      DEVICE 
@@ -54,7 +54,7 @@ IP4.DNS[1]:                             172.20.10.1
 IP4.SEARCHES[1]:                        maas
 ```
 
-- verify using ipconfig
+- Verify using ifconfig
 ```
 ifconfig ens3
 ens3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -87,7 +87,7 @@ Verify Hostname
 hostnamectl 
  Static hostname: servera.lab.randifilan.id
        Icon name: computer-vm
-         Chassis: vm 🖴
+         Chassis: vm
       Machine ID: c021f2f2420c41558a083372033d562c
          Boot ID: 615fdd2bd4324e398f8ec6a1a88c4e5d
   Virtualization: kvm
