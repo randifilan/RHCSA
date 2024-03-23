@@ -1,4 +1,4 @@
-Question
+# Question
 - Configure yum repository with the given link (2 repo, BaseOS and AppStream)
 - Base_url = https://dtc.randifilan.id/rhel/BaseOS
 - AppStream = https://dtc.randifilan.id/rhel/AppStream
