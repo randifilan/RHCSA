@@ -95,7 +95,7 @@ public (active)
   interfaces: ens3
   sources: 
   services: cockpit dhcpv6-client http ssh
-  ports: 2021/tcp 2022/tcp 2023/tcp 2024/tcp 2025/tcp 2026/tcp 2027/tcp 2028/tcp 2029/tcp 2031/tcp 2032/tcp 2033/tcp 2034/tcp 2035/tcp 2036/tcp 2037/tcp 2038/tcp 2039/tcp 8888/tcp 8080/tcp
+  ports: 8888/tcp 8080/tcp
 ```
 
 - Add port 81 to Allow in firewall
@@ -113,7 +113,7 @@ public (active)
   interfaces: ens3
   sources: 
   services: cockpit dhcpv6-client http ssh
-  ports: 2021/tcp 2022/tcp 2023/tcp 2024/tcp 2025/tcp 2026/tcp 2027/tcp 2028/tcp 2029/tcp 2031/tcp 2032/tcp 2033/tcp 2034/tcp 2035/tcp 2036/tcp 2037/tcp 2038/tcp 2039/tcp 8888/tcp 8080/tcp **81/tcp**
+  ports: 8888/tcp 8080/tcp `81/tcp`
 ```
 
 ```
