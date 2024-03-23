@@ -113,7 +113,7 @@ public (active)
   interfaces: ens3
   sources: 
   services: cockpit dhcpv6-client http ssh
-  ports: 8888/tcp 8080/tcp `81/tcp`
+  ports: 8888/tcp 8080/tcp 81/tcp
 ```
 
 ```
