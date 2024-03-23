@@ -10,8 +10,8 @@ touch /etc/yum.repos.d/local.repo
 ```
 
 Edit Local repo
+- vim /etc/yum.repos.d/local.repo
 ```
-vim /etc/yum.repos.d/local.repo
 [rhel-9-for-x86_64-appstream-rpms]
 name=Red Hat Enterprise Linux 9 for x86_64 - AppStream (RPMs)
 baseurl=https://dtc.randifilan.id/rhel/BaseOS/
