@@ -39,7 +39,6 @@ connection.interface-name:              ens3
 connection.autoconnect:                 yes
 ipv4.method:                            manual
 ipv4.dns:                               172.20.10.3
-ipv4.dns-search:                        maas
 ipv4.addresses:                         172.20.10.10/24
 ipv4.gateway:                           172.20.10.1
 GENERAL.NAME:                           ens3
@@ -51,7 +50,6 @@ GENERAL.DEFAULT:                        yes
 IP4.ADDRESS[1]:                         172.20.10.10/24
 IP4.GATEWAY:                            172.20.10.1
 IP4.DNS[1]:                             172.20.10.1
-IP4.SEARCHES[1]:                        maas
 ```
 
 - Verify using ifconfig
