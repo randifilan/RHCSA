@@ -12,14 +12,14 @@ touch /etc/yum.repos.d/local.repo
 Edit Local repo
 ```
 vim /etc/yum.repos.d/local.repo
-[baseOS]
-name=baseOS RHEL 9.3 DVD
+[rhel-9-for-x86_64-appstream-rpms]
+name=Red Hat Enterprise Linux 9 for x86_64 - AppStream (RPMs)
 baseurl=https://dtc.randifilan.id/rhel/BaseOS/
 gpgcheck=0
 enabled=1
 
-[AppStream]
-name=AppStream RHEL 9.3 DVD
+[rhel-9-for-x86_64-baseos-rpms]
+name=Red Hat Enterprise Linux 9 for x86_64 - BaseOS (RPMs)
 baseurl=https://dtc.randifilan.id/rhel/AppStream/
 gpgcheck=0
 enabled=1
@@ -34,11 +34,11 @@ Updating Subscription Management repositories.
 ```
 
 - dnf repolist
-  dnf repolist
-  Updating Subscription Management repositories.
-  repo id                                             repo name
-  rhel-9-for-x86_64-appstream-rpms                    Red Hat Enterprise Linux 9 for x86_64 - AppStream (RPMs)
-  rhel-9-for-x86_64-baseos-rpms                       Red Hat Enterprise Linux 9 for x86_64 - BaseOS (RPMs)
+dnf repolist
+Updating Subscription Management repositories.
+repo id                                             repo name
+rhel-9-for-x86_64-appstream-rpms                    Red Hat Enterprise Linux 9 for x86_64 - AppStream (RPMs)
+rhel-9-for-x86_64-baseos-rpms                       Red Hat Enterprise Linux 9 for x86_64 - BaseOS (RPMs)
 
 - dnf check-update
 ```
