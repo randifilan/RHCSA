@@ -29,6 +29,13 @@ Mar 23 23:15:29 servera.lab.randifilan.id systemd[1]: Failed to start The Apache
 Hint: Some lines were ellipsized, use -l to show in full.
 ```
 
+Check in sealert
+```
+sealert -l "*" | grep -i preventing
+SELinux is preventing /usr/sbin/httpd from name_bind access on the tcp_socket port 82.
+SELinux is preventing /usr/sbin/httpd from name_bind access on the tcp_socket port 82.
+```
+
 Check http_port in SELinux
 ```
 semanage port -l | grep http
