@@ -40,7 +40,7 @@ repo id                                             repo name
 rhel-9-for-x86_64-appstream-rpms                    Red Hat Enterprise Linux 9 for x86_64 - AppStream (RPMs)
 rhel-9-for-x86_64-baseos-rpms                       Red Hat Enterprise Linux 9 for x86_64 - BaseOS (RPMs)
 
--- dnf check-update
+- dnf check-update
 ```
 dnf check-update
 Updating Subscription Management repositories.
