@@ -11,17 +11,17 @@ ens3    ethernet  connected               ens3
 lo      loopback  connected (externally)  lo 
 ```
 
-# Edit via nmcli
+## Edit via nmcli
 ```
 nmcli connection modify ens3 ipv4.method manual ipv4.addresses 172.20.10.10/24 ipv4.gateway 172.20.10.1 ipv4.dns 172.20.10.3
 ```
 
-Disable ens3
+- Disable ens3
 ```
 nmcli connection down ens3
 ```
 
-Enable ens3
+- Enable ens3
 ```
 nmcli connection up ens3
 ```
