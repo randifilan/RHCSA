@@ -1,6 +1,6 @@
 # Find the iface [ens3]
 ```
-nmcli con show or nmcli dev status
+nmcli con show
 NAME  UUID                                  TYPE      DEVICE 
 ens3  99783413-b465-3df3-a908-d4570af31af2  ethernet  ens3   
 lo    4e07cc32-ff6d-43a9-b7dd-d37b4b3c78dc  loopback  lo 
